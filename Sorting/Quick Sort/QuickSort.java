@@ -47,3 +47,64 @@ public class QuickSort{
         }
     }
 }
+
+
+// public static void Partition (int arr[], int i, int j){
+
+//     if(i>=j)return;
+
+//     int pivot = pivot(arr, i, j);
+//     partition(arr, i, pivot-1);
+//     partition(arr, pivot+1, j);
+// }
+
+// public static int pivot(int arr[], int start, int end){
+
+//     int count = 0;
+
+//     for(int i=start+1; i<=end; i++){
+//         if(arr[start]>arr[i]) count++;
+//     }
+
+//     int pivotIdx = count + start;
+//     swap(arr, pivotIdx, start);
+    
+//     int i=start;
+//     int j=end;
+
+//     while(i<pivotIdx && j>pivotIdx){
+//         while(i<pivotIdx && arr[i] < arr[pivotIdx])i++;
+//         while(j>pivotIdx && arr[j] > arr[pivotIdx])j--;
+//         if(i<pivotIdx && j>pivotIdx) swap(arr, i, j);
+//     }
+//     return pivotIdx;
+// }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
